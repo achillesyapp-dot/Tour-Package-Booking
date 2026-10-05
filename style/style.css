@@ -1,0 +1,111 @@
+
+body {
+        font-family: Arial, sans-serif;
+    }
+
+        /* HOME */
+        .hero {
+            text-align: center;
+            padding: 20px;
+            background: #e8f5e9;
+            border-radius: 12px;
+            margin-bottom: 20px;
+        }
+
+        /* HOME IMAGE */
+        .hero img {
+            width: 100%;
+            max-width: 800px;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 15px;
+        }
+
+        .hero h2 {
+            font-size: 30px;
+            color: #2e7d32;
+        }
+
+        .hero p {
+            font-size: 17px;
+            line-height: 1.6;
+        }
+
+
+        /* PACKAGE CARD */
+        .package-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+        }
+
+        /* PACKAGE IMAGE */
+        .package-card img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .package-card h2 {
+            color: #2e7d32;
+        }
+
+
+        /* POPUP */
+        .popup-content {
+            padding: 20px;
+        }
+
+
+        /* ERROR MESSAGE */
+        .error {
+            color: red;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+
+        /* SUCCESS MESSAGE */
+        .success {
+            color: green;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+
+        /* FOOTER */
+        [data-role="footer"] {
+            text-align: center;
+        }
+
+
+        /* MOBILE */
+        @media screen and (max-width: 600px) {
+
+            .hero h2 {
+                font-size: 24px;
+            }
+
+            .hero p {
+                font-size: 15px;
+            }
+
+            .hero img {
+                height: 200px;
+            }
+
+            .package-card {
+                padding: 15px;
+            }
+
+            .package-card img {
+                height: 180px;
+            }
+
+        }
